@@ -1,0 +1,14 @@
+{
+  "mappings": {
+    "net/nemo/random_name_tag/mixin/RandomNameTagMixin": {
+      "useOnEntity": "Lnet/minecraft/class_1807;method_7847(Lnet/minecraft/class_1799;Lnet/minecraft/class_1657;Lnet/minecraft/class_1309;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1269;"
+    }
+  },
+  "data": {
+    "named:intermediary": {
+      "net/nemo/random_name_tag/mixin/RandomNameTagMixin": {
+        "useOnEntity": "Lnet/minecraft/class_1807;method_7847(Lnet/minecraft/class_1799;Lnet/minecraft/class_1657;Lnet/minecraft/class_1309;Lnet/minecraft/class_1268;)Lnet/minecraft/class_1269;"
+      }
+    }
+  }
+}

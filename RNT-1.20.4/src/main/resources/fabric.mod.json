@@ -1,0 +1,37 @@
+{
+	"schemaVersion": 1,
+	"id": "randomnametag",
+	"version": "${version}",
+	"name": "RandomNameTag",
+	"description": "This is an example description! Tell everyone what your mod is about!",
+	"authors": [
+		"Me!"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/randomnametag/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"net.nemo.random_name_tag.RandomNameTag"
+		],
+		"fabric-datagen": [
+			"net.nemo.random_name_tag.RandomNameTagDataGenerator"
+		]
+	},
+	"mixins": [
+		"randomnametag.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.11",
+		"minecraft": "~1.20.4",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
